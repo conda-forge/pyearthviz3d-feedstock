@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: python -m pip install . -vv --no-deps --no-build-isolation
-  number: 3
+  number: 5
 
 requirements:
   host:
@@ -21,12 +21,10 @@ requirements:
     - pip
     - setuptools >=61.0
     - wheel
-    - pyearth >=0.2.2
   run:
     - python >=${{ python_min }}
     - numpy
     - geovista
-    - pyvista
     - gdal >=3.0.0
     - pyearth >=0.2.2
 
