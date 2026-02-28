@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/changliao1025/pyearthviz3d/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2575409080980bb2599b5723e90adf53297c9daa58d1ce603e46b1d65ccc5206
+  sha256: 4e839c507aed73e48bd5051e95bc2599f55a58d8127b5c635a1befeb754de5a6
 
 build:
   noarch: python
