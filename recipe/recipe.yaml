@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://github.com/changliao1025/pyearthviz3d/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 7c7549d999183864380bf0360606050e012419484a8b674983fb2d0d3421b77a
+  sha256: 8c7b6a1e78751d817bcd5a3a3ed8303670eaf49a063c50880015df9d5c7f7ef6
 
 build:
   noarch: python
   script: python -m pip install . -vv --no-deps --no-build-isolation
-  number: 5
+  number: 6
 
 requirements:
   host:
@@ -42,7 +42,7 @@ about:
   homepage: https://github.com/changliao1025/pyearthviz3d
   summary: '3D visualization for geospatial and Earth science data'
   description: |
-    pyearthviz3d is a lightweight Python package for 3D visualization and plotting of geospatial and Earth science data.
+    pyearthviz3d is a lightweight Python package for 3D visualization of Earth science data.
   license: BSD-3-Clause
   license_file: LICENSE
   documentation: https://pyearthviz3d.readthedocs.io/
