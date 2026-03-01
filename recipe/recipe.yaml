@@ -42,7 +42,7 @@ about:
   homepage: https://github.com/changliao1025/pyearthviz3d
   summary: '3D visualization for geospatial and Earth science data'
   description: |
-    pyearthviz3d is a lightweight Python package for 3D visualization and plotting of geospatial and Earth science data.
+    pyearthviz3d is a lightweight Python package for 3D visualization of Earth science data.
   license: BSD-3-Clause
   license_file: LICENSE
   documentation: https://pyearthviz3d.readthedocs.io/
