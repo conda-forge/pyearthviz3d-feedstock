@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://github.com/changliao1025/pyearthviz3d/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4e839c507aed73e48bd5051e95bc2599f55a58d8127b5c635a1befeb754de5a6
+  sha256: 7c7549d999183864380bf0360606050e012419484a8b674983fb2d0d3421b77a
 
 build:
   noarch: python
   script: python -m pip install . -vv --no-deps --no-build-isolation
-  number: 4
+  number: 5
 
 requirements:
   host:
